@@ -7,7 +7,7 @@ const app = gemini({
 })
 
 app.on('/', (request, response) => {
-  response.file('./pages/index.gmi')
+  response.file('./src/pages/index.gmi')
 })
 
 app.listen(1965)
