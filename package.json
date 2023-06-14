@@ -5,7 +5,7 @@
   "main": "src/index.js",
   "repository": "ssh://git@github.com:ademayo/gemini-docker",
   "author": "Gus deMayo <gus.demayo@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "fs": "^0.0.1-security",
     "gemini-server": "^2.1.1"
