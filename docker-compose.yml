@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+
+  gemini:
+    build:
+      context: .
+      dockerfile: ./docker/gemini.dockerfile
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - "127.0.0.1:${APP_PORT}:1965"
+    restart: unless-stopped
